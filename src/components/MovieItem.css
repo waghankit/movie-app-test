@@ -1,12 +1,10 @@
 .container {
   position: relative;
-  
 }
 
 .image {
   display: block;
   width: 100%;
-  
 }
 
 .overlay {

@@ -3,11 +3,8 @@ import './MovieItem.css';
 import StarRating from './StarRating';
 
 class MovieItem extends Component {
-     
     render() {
-    
       return (
-        
         <div className="container">
             <img src={this.props.movie.Poster} alt="Avatar" className="image" />
             <div className="overlay">
@@ -22,7 +19,6 @@ class MovieItem extends Component {
               </div>
            </div>
           </div>
-        
       );
     }
   }
